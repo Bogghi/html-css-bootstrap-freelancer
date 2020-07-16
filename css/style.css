@@ -1,92 +1,64 @@
-/* place holder to delete */
-.bottom_header {
-    background-color: #1abc9c;
-    /* height: 500px; */
-    padding: 2% 0%;
+/* MIX */
+
+.p_top_80 {
+  padding-top: 80px;
+}
+.p_bottom_80 {
+  padding-bottom: 80px;
 }
 
-.portofolio_placeholder {
-    height: 800px;
+.bg_green {
+  background-color: #1abc9c;
+}
+.bg_light_blue {
+  background-color: #2c3e50;
 }
 
-.about_placeholder {
-    height: 400px;
-    background-color: #1abc9c;
+.wrapper_small {
+  max-width: 800px;
+  margin: auto;
 }
 
-.contat_placeholder {
-    height: 500px;
+/* HEADER */
+
+/* header top */
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
 }
 
-.upper_section_placeholder {
-    height: 200px;
-    background-color: #3a546d;
+/* jumbo */
+.jumbo {
+  margin-top: 70px;
+  padding: 70px 0;
+}
+.jumbo_text {
+  max-width: 900px;
+  padding: 0 15px;
+  margin: auto;
+  text-align: center;
 }
 
-.bottom_section_placeholder {
-    height: 100px;
-    background-color: #2c3e50;
+/* SECTIONS */
+
+/* portfolio */
+
+.box_portfolio {
+  height: 250px;
+  background-color: blue;
+  margin-bottom: 30px;
 }
 
-.bottom_header img{
-    height: 300px;
-    width: 300px;
-    display: inline-block;
+/* FOOTER */
+
+.footer_bottom {
+  background-color: blue;
+  color: #fff;
+  padding: 20px 0;
 }
-
-/* /place holder to delete */
-
-/* general section */
-
-nav.navbar-default {
-    border: 0px;
-    margin: 0px;
-}
-
-/* /general section */
-
-/* navbar style */
-.bg_blue {
-    background-color: #2c3e50;
-}
-
-nav div.container div.row [class*="col-"] * {
-    color: white;
-}
-
-.btn_header_content * {
-    color: white;
-    font-weight: bold;
-}
-
-.btn_header_content h1 {
-    font-size: 50px;
-}
-
-.btn_header_content {
-    text-align: center;
-}
-
-.btn_header_content p {
-    font-size: 20px;
-    padding-top: 20px;
-}
-
-.list-style {
-    list-style: none;
-}
-
-.list-style li {
-    display: inline-block;
-    padding: 0px 15px;
-}
-
-.divider hr{
-    border: 1px solid white;
-}
-
-.divider i {
-    font-size: 50px;
-}
-
-/* /navbar style */
