@@ -19,6 +19,10 @@
     color: #2c3e50;
 }
 
+.text_white {
+    color: white;
+}
+
 .wrapper_small {
   max-width: 800px;
   margin: auto;
@@ -30,6 +34,7 @@
     max-width: 331px;
     margin: auto auto 20px auto;
     position: relative;
+    text-align: center;
 }
 
 .divider-custom-line {
@@ -54,13 +59,6 @@
     max-height: 50px;
     text-align: center;
 }
-
-/* @media screen and (max-width: 768px){
-    .divider-custom-icon i {
-        font-size: 20px;
-        text-align: center;
-    }    
-} */
 
 .divider-custom-icon i {
     font-size: 40px;
@@ -150,6 +148,23 @@
 
 .box_portfolio img {
     border-radius: 1rem;
+}
+
+/* about section */
+
+#about * {
+    color: white;
+}
+
+#about .about_text_style {
+    font-size: 20px;
+}
+
+.btn_customization {
+    font-size: 20px;
+    padding: 20px 20px;
+    margin-top: 50px;
+    border: 2px white solid;
 }
 
 /* FOOTER */
