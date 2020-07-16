@@ -1,5 +1,9 @@
 /* MIX */
 
+*{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .p_top_80 {
   padding-top: 80px;
 }
@@ -19,8 +23,40 @@
   margin: auto;
 }
 
-*{
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.divider-custom {
+    height: 50px;
+    width: 100%;
+    max-width: 331px;
+    margin: auto;
+    position: relative;
+}
+
+.divider-custom-line {
+    width: 100%;
+    max-width: 112px;
+    height: 3px;
+    background-color: #fff;
+    float: left;
+    /* border: 1px black solid; */
+    margin-top: 20px;
+}
+
+.divider-custom-icon {
+    width: 100%;
+    max-width: 107px;
+    float: left;
+    height: 100%;
+    max-height: 50px;
+}
+
+@media screen and (max-width: 768px){
+    .divider-custom-icon i {
+        font-size: 20px;
+    }    
+}
+
+.divider-custom-icon i {
+    font-size: 40px;
 }
 
 /* HEADER */
@@ -66,8 +102,25 @@
   text-align: center;
 }
 
+.jumbo_text * {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbo_text .header_one {
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 20px
+}
+
+.jumbo_text p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .jumbo_img {
     width: 250px;
+    margin-bottom: 30px;
 }
 
 /* SECTIONS */
