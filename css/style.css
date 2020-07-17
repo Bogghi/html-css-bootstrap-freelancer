@@ -217,7 +217,13 @@ input.form-control::placeholder {
     color: #2c3e50;
 }
 
-textarea.form-control::placeholder {
+.textarea_placeholder {
+    padding-left: 0px;
+    line-height: 30px;
+    resize: none;
+}
+
+.textarea_placeholder::placeholder{
     font-size: 20px;
     color: #2c3e50;
 }
@@ -245,6 +251,12 @@ input.form-control:focus {
 
 textarea.form-control:focus {
     box-shadow: 0px 0px;
+}
+
+.btn_form {
+    padding: 20px 30px;
+    font-size: 20px;
+    border: 0px;
 }
 
 
