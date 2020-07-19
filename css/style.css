@@ -90,7 +90,12 @@
 @media screen and (max-width: 768px) {
     .nav_logo {
         font-size: 17px;
-        font-weight: bold;    
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav_logo {
+        font-size: 12px;
     }
 }
 
@@ -127,6 +132,12 @@
     font-size: 70px;
     line-height: 90px;
     margin-bottom: 20px
+}
+
+@media screen and (max-width: 768px) {
+    .jumbo_text .header_one {
+        font-size: 50px;
+    }
 }
 
 .jumbo_text p {
@@ -292,5 +303,6 @@ textarea.form-control:focus {
     line-height: 45px;
     border: 2px white solid;
     margin: 20px 0px;
+    text-align: center;
 }
 
